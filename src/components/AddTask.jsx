@@ -67,7 +67,7 @@ const AddTask = () => {
   return (
     <div>
       {/* create post section */}
-      <section className="space-x-4">
+      <section className="space-x-4 flex">
         <input
           onChange={handleInput}
           value={value}
